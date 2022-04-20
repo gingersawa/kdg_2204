@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/ps.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <title>ps_img</title>
+  </head>
+  <body>
+    <div class="slide_wrap">
+      <div class="slide_box">
+        <h2>main page</h2>
+        <div class="desc">
+          <p class="desc_web">< 1920px web ></p>
+          <p class="desc_mob">< 375px mobile ></p>
+        </div>
+
+        <div class="inner">
+          <div class="web">
+            <img src="images/ps/web_main.jpg" alt="" />
+          </div>
+          <div class="mob">
+            <img src="images/ps/mob_main.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="slide_box">
+        <h2>subpage _ game</h2>
+        <div class="desc">
+          <p class="desc_web">< 1920px web ></p>
+          <p class="desc_mob">< 375px mobile ></p>
+        </div>
+
+        <div class="inner">
+          <div class="web">
+            <img src="images/ps/web_sub1_game.jpg" alt="" />
+          </div>
+          <div class="mob">
+            <img src="images/ps/mob_sub1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="slide_box">
+        <h2>subpage _ psplus</h2>
+        <div class="desc">
+          <p class="desc_web">< 1920px web ></p>
+          <p class="desc_mob">< 375px mobile ></p>
+        </div>
+
+        <div class="inner">
+          <div class="web">
+            <img src="images/ps/web_sub2_psplus.jpg" alt="" />
+          </div>
+          <div class="mob">
+            <img src="images/ps/mob_sub2.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="slide_box">
+        <h2>subpage _ esports</h2>
+        <div class="desc">
+          <p class="desc_web">< 1920px web ></p>
+          <p class="desc_mob">< 375px mobile ></p>
+        </div>
+
+        <div class="inner">
+          <div class="web">
+            <img src="images/ps/web_sub3_esports.jpg" alt="" />
+          </div>
+          <div class="mob">
+            <img src="images/ps/mob_sub3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="slide_box">
+        <h2>subpage _ customer</h2>
+        <div class="desc">
+          <p class="desc_web">< 1920px web ></p>
+          <p class="desc_mob">< 375px mobile ></p>
+        </div>
+
+        <div class="inner">
+          <div class="web">
+            <img src="images/ps/web_sub4_custom.jpg" alt="" />
+          </div>
+          <div class="mob">
+            <img src="images/ps/mob_sub4.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="slide_box">
+        <h2>subpage _ notice</h2>
+        <div class="desc">
+          <p class="desc_web">< 1920px web ></p>
+          <p class="desc_mob">< 375px mobile ></p>
+        </div>
+
+        <div class="inner">
+          <div class="web">
+            <img src="images/ps/web_sub5_notice.jpg" alt="" />
+          </div>
+          <div class="mob">
+            <img src="images/ps/mob_sub5.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="slide_box">
+        <h2>menu design</h2>
+        <div class="desc">
+          <p class="desc_web">< 1920px web ></p>
+          <p class="desc_mob">< 375px mobile ></p>
+        </div>
+
+        <div class="inner">
+          <div class="web">
+            <img src="images/ps/web_menu.jpg" alt="" />
+          </div>
+          <div class="mob">
+            <img src="images/ps/mob_menu.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="slide_box">
+        <h2>login pop up</h2>
+        <div class="desc">
+          <p class="desc_web">< 1920px web ></p>
+          <p class="desc_mob">< 375px mobile ></p>
+        </div>
+
+        <div class="inner">
+          <div class="web">
+            <img src="images/ps/web_login.jpg" alt="" />
+          </div>
+          <div class="mob">
+            <img src="images/ps/mob_login.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn">
+      <div class="prev"><i class="fas fa-angle-left"></i></div>
+      <div class="next"><i class="fas fa-angle-right"></i></div>
+    </div>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+      $(".slide_wrap").slick({
+        dots: false,
+        arrows: true,
+        prevArrow: $(".prev"),
+        nextArrow: $(".next"),
+        initialSlide: 0,
+        speed: 900,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      });
+    </script>
+  </body>
+</html>

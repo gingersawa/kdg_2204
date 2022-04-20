@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/wong.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <title>wong_img</title>
+  </head>
+  <body>
+    <div class="slide_wrap">
+      <div class="slide_box">
+        <h2>main page</h2>
+        <div class="inner">
+          <div class="web">
+            <p>
+              *스크롤 타이밍에 맞춰 이미지가 팝업되는 되는 페이지입니다. 아래의
+              이미지는 캡처이미지 입니다.*
+            </p>
+            <img src="images/wong/wong_main_1.png" alt="" />
+            <img src="images/wong/wong_main_2.png" alt="" />
+            <img src="images/wong/wong_main_3.png" alt="" />
+            <img src="images/wong/wong_main_4.png" alt="" />
+            <img src="images/wong/wong_main_5.png" alt="" />
+            <img src="images/wong/wong_main_6.png" alt="" />
+            <img src="images/wong/wong_main_7.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="slide_box">
+        <h2>sub page</h2>
+        <div class="inner">
+          <div class="web">
+            <img src="images/wong/wong_sub_1.png" alt="" />
+            <img src="images/wong/wong_sub_3.png" alt="" />
+            <img src="images/wong/wong_sub_2.png" alt="" />
+            <img src="images/wong/wong_sub_4.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="slide_box">
+        <h2>menu popup</h2>
+        <div class="inner">
+          <div class="web">
+            <img src="images/wong/wong_menu2.jpg" alt="" />
+            <img src="images/wong/wong_menu.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn">
+      <div class="prev"><i class="fas fa-angle-left"></i></div>
+      <div class="next"><i class="fas fa-angle-right"></i></div>
+    </div>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+      $(".slide_wrap").slick({
+        dots: false,
+        arrows: true,
+        prevArrow: $(".prev"),
+        nextArrow: $(".next"),
+        initialSlide: 0,
+        speed: 900,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      });
+    </script>
+  </body>
+</html>
